@@ -30,5 +30,6 @@ public class UpperAndLower {
         System.out.println(word1 + word2);
 
 
+
     }
 }
