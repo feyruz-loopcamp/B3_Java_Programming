@@ -67,7 +67,7 @@ public class PolymorphicArray {
         obj3[0] = new B1();
         obj3[1] = new C1();
         //obj3[2] = new A();
-        //obj3[2] = (B1)new A();
+        //obj3[2] = (B1)new A(); // This will cause a RunTime / ClassCastException at runtime - This cast is invalid because A is not a B1. Casting an object of class A to B1 will result in a ClassCastException.
         //obj3[3] = new B2();
         //obj3[3] = (B1)new B2();
 
